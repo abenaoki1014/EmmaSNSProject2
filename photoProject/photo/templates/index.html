@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Photo Gallery{% endblock %}
+
+  {% block contents %}
+
+  {% include 'photo_title.html' %}
+
+  {% include 'photo_list.html' %}
+
+  {% include 'pagination.html' %}
+
+  {% endblock %}
